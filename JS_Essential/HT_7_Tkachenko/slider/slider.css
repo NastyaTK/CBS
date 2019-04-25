@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-section-slider {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+}
+.slider-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.slider-wrap div {
+  height: 270px;
+  width: 370px;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-wrap div:first-of-type {
+  background-image: url("images/1.png");
+}
+.slider-wrap div:nth-of-type(2n) {
+  background-image: url("images/2.png");
+}
+.slider-wrap div:nth-of-type(3n) {
+  background-image: url("images/3.png");
+}
+.slider-wrap div:nth-of-type(4n) {
+  background-image: url("images/4.png");
+}
+.slider-wrap div:nth-of-type(5n) {
+  background-image: url("images/5.png");
+}
+.slider-wrap div:nth-of-type(6n) {
+  background-image: url("images/6.png");
+}
+.slider-wrap div:nth-of-type(7n) {
+  background-image: url("images/7.png");
+}
+.slider-wrap div:nth-of-type(8n) {
+  background-image: url("images/8.png");
+}
+.slider-wrap div:last-of-type{
+  background-image: url("images/9.png");
+}
+.slider-button {
+  display: flex;
+  align-content: center;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+.slider-button :hover {
+  cursor: pointer;
+}
+.slider-button-icon {
+  font-size: 32px;
+  color: blue;
+}

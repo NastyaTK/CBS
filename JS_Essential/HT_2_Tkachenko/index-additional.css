@@ -1,0 +1,15 @@
+.black{
+    height: 50px;
+    width: 50px;
+    background: #000000;
+}
+.white{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}

@@ -1,0 +1,7 @@
+.task4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.task4 div{
+    margin-right: 25px;
+}
