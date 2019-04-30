@@ -1,0 +1,10 @@
+.timer-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.timer-buttons button{
+    margin: 10px;
+}
+.timer-display{
+    display: flex;
+}
