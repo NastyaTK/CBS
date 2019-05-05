@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css" />
+  </head>
+  <body>
+    <form id="pizza" action="">
+      <div id="size">
+        <p>Size</p>
+        <label for="small">Small</label>
+        <input type="radio" name="pizza-size" id="small" value="33" checked />
+        <label for="medium">Medium</label>
+        <input type="radio" name="pizza-size" id="medium" value="66" />
+        <label for="large">Large</label>
+        <input type="radio" name="pizza-size" id="large" value="99" />
+      </div>
+      <div id="ingredients">
+        <p>Ingredients</p>
+        <label for="bacon">Bacon</label>
+        <input type="checkbox" name="pizza-ingredient" id="bacon" value="55" />
+        <label for="mush">Mushrooms</label>
+        <input type="checkbox" name="pizza-ingredient" id="mush" value="30" />
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" name="pizza-ingredient" id="tomato" value="25" />
+        <label for="cheese">Cheese</label>
+        <input type="checkbox" name="pizza-ingredient" id="cheese" value="35" />
+        <label for="olive">Olives</label>
+        <input type="checkbox" name="pizza-ingredient" id="olive" value="60" />
+        <p class="validation">Choose at least one</p>
+      </div>
+      <div class="user-data">
+        <input type="text" placeholder="Name" name="name" required />
+        <input type="tel" placeholder="phone" name="phone" required />
+        <input type="text" placeholder="address" name="address" required />
+        <p class="validation-user" id="validation-user">
+          user info cant be empty
+        </p>
+      </div>
+      <div id="price"></div>
+      <button id="calc">Calculate</button>
+      <input type="submit" id="submit" value="Confirm" />
+    </form>
+    <script src="index1.js"></script>
+  </body>
+</html>

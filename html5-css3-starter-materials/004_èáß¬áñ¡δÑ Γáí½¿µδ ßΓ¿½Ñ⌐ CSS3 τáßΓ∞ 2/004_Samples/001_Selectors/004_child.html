@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* Селектор применяет стили только к тем элементам, которые являются непосредственно дочерними. */
+        p > span{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <span>Tincidunt</span> integer eu augue <span>augue</span> nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+        </p>
+        <span>
+            Span внутри тега  DIV.
+        </span>
+    </div>
+    <div>
+        <p>
+            <span>
+                Span внутри параграфа.
+            </span>
+            <div>
+                <span>
+                    Span внутри Div.
+                </span>
+            </div>
+        </p>
+    </div>
+</body>
+</html>

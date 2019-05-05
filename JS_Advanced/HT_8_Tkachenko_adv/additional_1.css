@@ -1,0 +1,14 @@
+.items-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.cards-wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+.cards-wrap div {
+  margin-right: 15px;
+}
+.separate-item {
+  border: 1px solid blue;
+}

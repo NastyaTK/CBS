@@ -10,32 +10,28 @@
 -->
 
 <html>
-<head>
-    <title>Деление по модулю</title>
+  <head>
+    <title>Инкремент</title>
 
     <script type="text/javascript">
+      var a = 9;
 
-        var a = 9;
+      document.write("Постфиксный инкремент <br />");
+      document.write(a + "<br />"); // выведет 9
+      a++;
+      document.write(a + "<br />"); // выведет 10
+      document.write(a++ + "<br />"); // выведет 10
+      document.write(a + "<br />"); // выведет 11
 
-        document.write("Постфиксный инкремент <br />");
-        document.write(a + "<br />");   // выведет 9
-        a++;
-        document.write(a + "<br />");   // выведет 10
-        document.write(a++ + "<br />"); // выведет 10
-        document.write(a + "<br />");   // выведет 11
+      document.write("<hr/>");
 
-        document.write("<hr/>");
-
-        document.write("Префиксный инкремент <br />");
-        document.write(a + "<br />");   // выведет 11
-        ++a;
-        document.write(a + "<br />");   // выведет 12
-        document.write(++a + "<br />"); // выведет 13
-        document.write(a + "<br />");   // выведет 13
-
+      document.write("Префиксный инкремент <br />");
+      document.write(a + "<br />"); // выведет 11
+      ++a;
+      document.write(a + "<br />"); // выведет 12
+      document.write(++a + "<br />"); // выведет 13
+      document.write(a + "<br />"); // выведет 13
     </script>
-
-</head>
-<body>
-</body>
+  </head>
+  <body></body>
 </html>

@@ -9,39 +9,35 @@
 -->
 
 <html>
-<head>
+  <head>
     <title>Строки, конкатенация</title>
 
     <script type="text/javascript">
+      var string1 = "Hello ";
+      var string2 = "World";
 
-        var string1 = "Hello ";
-        var string2 = 'World';
+      var resString = string1 + string2; // конкатенация значений переменных string1 и string2
 
-        var resString = string1 + string2; // конкатенация значений переменных string1 и string2
+      document.write(string1 + "<br/>");
+      document.write(string2 + "<br/>");
+      document.write(resString + "<br/><hr>");
 
-        document.write(string1 + "<br/>");
-        document.write(string2 + "<br/>");
-        document.write(resString + "<br/><hr>");
+      var str = "10";
+      var a = 1;
 
-        var str = "10";
-        var a = 1;
+      // Конкатенация
+      // Произошло неявное преобразование значения типа Number в тип String.
+      // Значение в переменной (a) неявно преобразуется в строку (т.е в значение типа String)
+      // и далее над этой строкой-числом производится операция конкатенации.
+      document.write(str + a + "<br/>");
 
-        // Конкатенация
-        // Произошло неявное преобразование значения типа Number в тип String.
-        // Значение в переменной (a) неявно преобразуется в строку (т.е в значение типа String)
-        // и далее над этой строкой-числом производится операция конкатенации.
-        document.write(str + a + "<br/>");
-
-        // Произошло неявное преобразование значения типа String в тип Number.
-        // Значение в переменной str неявно преобразуется в число (т.е в значение типа Number)
-        // и далее над этим числом производится арифметическая операция.
-        document.write(str - a + "<br/>");
-        document.write(str * "2" + "<br/>");
-        document.write(str / "2" + "<br/>");
-
+      // Произошло неявное преобразование значения типа String в тип Number.
+      // Значение в переменной str неявно преобразуется в число (т.е в значение типа Number)
+      // и далее над этим числом производится арифметическая операция.
+      document.write(str - a + "<br/>");
+      document.write(str * "2" + "<br/>");
+      document.write(str / "2" + "<br/>");
     </script>
-
-</head>
-<body>
-</body>
+  </head>
+  <body></body>
 </html>

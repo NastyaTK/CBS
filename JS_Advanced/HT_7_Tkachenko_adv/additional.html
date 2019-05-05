@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="additional.css" />
+  </head>
+  <body>
+    <form id="registrationForm" action="">
+      <input id="name" type="text" placeholder="name" />
+      <input id="surname" type="text" placeholder="surname" />
+      <input id="login" type="text" placeholder="login" />
+      <input id="pswd" type="password" placeholder="password" />
+      <input id="pswd-confirm" type="password" placeholder="confirm password" />
+      <p id="pswd-confirm-validate">password dont match</p>
+      <input id="email" type="email" placeholder="email" />
+      <p id="email-validate">wrong email format</p>
+      <div class="sex">
+        <label for="sex-female">Female</label>
+        <input name="sex" id="sex-female" type="radio" checked />
+        <label for="sex-male">Male</label>
+        <input name="sex" id="sex-male" type="radio" />
+      </div>
+      <p id="form-validate">All fields must be filled</p>
+    </form>
+    <script src="additional.js"></script>
+  </body>
+</html>

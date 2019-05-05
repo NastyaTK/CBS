@@ -20,7 +20,7 @@ document.getElementById('minus').onclick = function () {
     }
     result.appendChild(minusResult);
 }
-document.getElementById('multiply').onclick = function () {
+document.getElementById('multiply').addEventListener('click', function () {
     let multResult = document.createElement('p')
     if (parseInt(input1.value) && parseInt(input2.value)) {
         multResult.innerHTML = 'result: ' + (parseInt(input1.value) * parseInt(input2.value)) + '</p><br>';
@@ -28,8 +28,8 @@ document.getElementById('multiply').onclick = function () {
         multResult.innerHTML = 'fill input fields and retry<br>';
     }
     result.appendChild(multResult);
-}
-document.getElementById('divide').onclick = function () {
+});
+document.getElementById('divide').addEventListener('click', function () {
     let multResult = document.createElement('p')
     if (parseInt(input1.value) && parseInt(input2.value)) {
         if (parseInt(input2.value) != 0) {
@@ -41,4 +41,4 @@ document.getElementById('divide').onclick = function () {
         multResult.innerHTML = 'fill input fields and retry<br>';
     }
     result.appendChild(multResult);
-}
+});
