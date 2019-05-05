@@ -1,0 +1,19 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+.container div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.container :nth-child(1){
+    background-color: green;
+}
+.container :nth-child(2){
+    background-color: blue;;
+}
+.container :nth-child(3){
+    background-color: red;
+}

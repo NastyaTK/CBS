@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body >button{
+    width: 100px;
+}
+.wrap{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.nested{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: none;
+    background-color: #098311;
+    position: relative;
+}
+.closeBtn{
+    position: absolute;
+    right: 0;
+}
